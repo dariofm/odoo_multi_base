@@ -1,0 +1,42 @@
+# Translation of ADAX ERP - Server.
+# This file contains the translation of the following modules:
+# 	* muk_dms_connector
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: ADAX ERP - Server 11.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-02-09 15:49+0000\n"
+"PO-Revision-Date: 2018-02-09 11:51-0400\n"
+"Last-Translator: Thiago Macêdo | ADAX Technology <thiago.macedo@adaxtechnology.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Language: pt_BR\n"
+"X-Generator: Poedit 1.8.7.1\n"
+
+#. module: muk_dms_connector
+#: model:ir.model,name:muk_dms_connector.model_muk_dms_file
+msgid "File"
+msgstr "Arquivo"
+
+#. module: muk_dms_connector
+#: model:ir.model,name:muk_dms_connector.model_muk_dms_access
+msgid "MuK Documents Access"
+msgstr "Acesso aos Documentos"
+
+#. module: muk_dms_connector
+#: model:ir.model,name:muk_dms_connector.model_muk_dms_directory
+msgid "MuK Documents Directory"
+msgstr "Diretório de Documentos"
+
+#. module: muk_dms_connector
+#: code:addons/muk_dms_connector/services/connector.py:39
+#: code:addons/muk_dms_connector/services/connector.py:57
+#: code:addons/muk_dms_connector/services/connector.py:72
+#: code:addons/muk_dms_connector/services/connector.py:98
+#, python-format
+msgid "The record is missing!"
+msgstr "Falta o registro!"

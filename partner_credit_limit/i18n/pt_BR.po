@@ -1,0 +1,40 @@
+# Translation of ADAX ERP - Server.
+# This file contains the translation of the following modules:
+# 	* partner_credit_limit
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: ADAX ERP - Server 11.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-03-04 03:09+0000\n"
+"PO-Revision-Date: 2018-03-03 23:19-0400\n"
+"Last-Translator: Thiago Macêdo | ADAX Technology <thiago.macedo@adaxtechnology.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+"Language: pt_BR\n"
+"X-Generator: Poedit 1.8.7.1\n"
+
+#. module: partner_credit_limit
+#: model:ir.model.fields,field_description:partner_credit_limit.field_res_partner_over_credit
+#: model:ir.model.fields,field_description:partner_credit_limit.field_res_users_over_credit
+msgid "Allow Over Credit?"
+msgstr "Permitir ultrapassar limite de crédito?"
+
+#. module: partner_credit_limit
+#: code:addons/partner_credit_limit/models/sale.py:36
+#, python-format
+msgid "Credit Over Limits !\n"
+msgstr "Limite de crédito ultrapassado!\n"
+
+#. module: partner_credit_limit
+#: model:ir.model,name:partner_credit_limit.model_res_partner
+msgid "Partner"
+msgstr "Parceiro"
+
+#. module: partner_credit_limit
+#: model:ir.model,name:partner_credit_limit.model_sale_order
+msgid "Quotation"
+msgstr "Cotação"
